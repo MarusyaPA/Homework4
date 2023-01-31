@@ -21,37 +21,37 @@ public class Main {
             System.out.println("Если скорость " + speed + " придется заплатить штраф");
     }
         int ageChild=6;
-        if (ageChild >= 2 && ageChild <= 6);{
+        if (ageChild >= 2 && ageChild <= 6){
             System.out.println("Если возраст человека равен " + ageChild + " то ему нужно ходить в детский сад");
     }
         int ageSchool=9;
-        if (ageSchool >= 7 && ageChild <= 18);{
+        if (ageSchool >= 7 && ageChild <= 18){
             System.out.println("Если возраст человека равен " + ageSchool + " то ему нужно ходить в школу");
         }
         int ageUniverse=21;
-        if (ageUniverse >18  && ageUniverse <= 24);{
+        if (ageUniverse >18  && ageUniverse <= 24){
             System.out.println("Если возраст человека равен " + ageUniverse + " то ему нужно ходить в институт");
         }
         int ageForWork=30;
-        if (ageForWork >24 );{
+        if (ageForWork >24 ){
             System.out.println("Если возраст человека равен " + ageForWork + " то ему пора работать");
         }
         int age1=4;
-        if (age1 <= 5);{
+        if (age1 <= 5){
             System.out.println("Если возраст ребенка равен " + age1 + " то ему нельзя кататься на аттракционе");
         }
         int age4=7;
-        if (age4 >5  && age2 < 14);{
+        if (age4 >5  && age2 < 14){
             System.out.println("Если возраст ребенка равен " + age4 + " он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
         }
         int age3=16;
-        if (ageForWork >15 );{
+        if (ageForWork >15 ){
             System.out.println("Если возраст ребенка равен " + age3 + " то он может кататься без сопровождения взрослого");
         }
         int trainPlace=120;
         int sitPlace = 35;
         int stayPlace = 15;
-        if (trainPlace> sitPlace+stayPlace) {
+        if (trainPlace> sitPlace+stayPlace){
             System.out.println("свободные места в вагоне есть");
     } else {
             System.out.println("свободных мест в вагоне нет");
