@@ -48,14 +48,18 @@ public class Main {
         if (ageForWork >15 ){
             System.out.println("Если возраст ребенка равен " + age3 + " то он может кататься без сопровождения взрослого");
         }
-        int trainPlace=120;
-        int sitPlace = 35;
-        int stayPlace = 15;
-        if (trainPlace> sitPlace+stayPlace){
-            System.out.println("свободные места в вагоне есть");
-    } else {
+        int trainPlace=102;
+        int sitPlace = 60;
+        int passengers = 15;
+        if (passengers > 0 && passengers<= 59) {
+            System.out.println("свободные сидячие места в колличестве " + (sitPlace-passengers) + "в вагоне есть");}
+        else if (passengers >= 60 && passengers <= 102 )
+          {System.out.println("Свободные стоячие места в колличестве " + (trainPlace - passengers) + "в вагоне есть ");}
+     else {
             System.out.println("свободных мест в вагоне нет");
         }
+
+
         int one = 1;
         int two = 2;
         int three = 3;
@@ -73,3 +77,4 @@ public class Main {
             System.out.println("3 не самое большое число");}
     }
 }
+
