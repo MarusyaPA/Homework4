@@ -52,9 +52,9 @@ public class Main {
         int sitPlace = 60;
         int passengers = 15;
         if (passengers > 0 && passengers<= 59) {
-            System.out.println("свободные сидячие места в колличестве " + (sitPlace-passengers) + "в вагоне есть");}
+            System.out.println("свободные сидячие места в колличестве " + (sitPlace-passengers) + " в вагоне есть");}
         else if (passengers >= 60 && passengers <= 102 )
-          {System.out.println("Свободные стоячие места в колличестве " + (trainPlace - passengers) + "в вагоне есть ");}
+          {System.out.println("Свободные стоячие места в колличестве " + (trainPlace - passengers) + " в вагоне есть ");}
      else {
             System.out.println("свободных мест в вагоне нет");
         }
@@ -65,16 +65,10 @@ public class Main {
         int three = 3;
         if (one>two && one>three) {
             System.out.println ("1 самое большое число");
-        } else {
-            System.out.println("1 не самое большое число");}
-        if (two>one && two>three) {
-            System.out.println ("2 самое большое число");
-        } else {
-            System.out.println("2 не самое большое число");}
-        if (three>two && three>one) {
-            System.out.println ("3 самое большое число");
-        } else {
-            System.out.println("3 не самое большое число");}
+        } else if (two>one && two>three){
+            System.out.println("2 самое большое число");}
+         else {
+            System.out.println("3 самое большое число");}
     }
 }
 
